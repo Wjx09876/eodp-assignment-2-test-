@@ -1,0 +1,16 @@
+1.  Some sort of web scraping to find and record book genres - we can try doing api calls if possible
+
+2.  Match each reviewer to a specific age range - we can use clustering to find out how many and what age groups of people there are
+    To do this: use dissimilarity matrix (Week 5) and locate where are the hotspots and group accordingly - find k number of clusters
+    With this data of what type of consumers and reviewers there are we can extrapolate the data and analyse what this may mean in terms
+    of skewing genres
+
+4.  With this, we should be able to generate a pi chart of what each age group of people like to read
+
+5.  We should at some point deal with outliers or corrupted data which will impact our results - examples could be:
+    - rating not in correct number rante
+    - book name not existing
+    - book belonging to multiple genres at once
+
+6.  If we are adventurous, we can possibly think about what aesthetic or topic each book covers and look at what hot topics are for reader 
+    age groups. We can probably grab this or do some sort of ai search/query on the book.
